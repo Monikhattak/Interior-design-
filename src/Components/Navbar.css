@@ -1,0 +1,92 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space between logo, links, and signup button */
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+    position: relative;
+  }
+  
+  .navbar-logo {
+    flex: 1;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+    flex: 2;
+    justify-content: center; /* Center the links */
+  }
+  
+  .navbar-links a {
+    color: #0a0a0a;
+    text-decoration: none;
+    transition: color 0.3s;
+    justify-content: center;
+  }
+  
+  .navbar-links a:hover {
+    color: #f0a500;
+  }
+  
+  .navbar-signup {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Aligns the sign-up button to the right */
+  }
+  
+  .signup-button {
+    font-size: 20px;
+   font-style: blod;
+    background-color: #0a0a0a;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: 1px solid #161616;
+    border-radius: 4px;
+  }
+  
+  .signup-button:hover {
+    background-color: #0f486e;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 0.3rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+  }
+  
+  .navbar-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-links.open {
+      display: flex;
+      align-items: center;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  
+    .navbar-signup {
+      display: none; /* Hide the sign-up button on small screens */
+    }
+  }
+  

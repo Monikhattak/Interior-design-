@@ -1,0 +1,93 @@
+/* src/Home.css */
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.home-image,
+.home-image-2 {
+  flex: 1 1 40%;
+}
+
+.home-image img,
+.home-image-2 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.home-button {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.home-button button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-button button:hover {
+  background-color: #f0a500;
+  color: #333;
+}
+
+.home-stats {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-stats span {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-stats .project {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-stats {
+    align-items: center;
+  }
+
+  .home-stats span {
+    font-size: 1.2rem;
+  }
+
+  .home-stats .project {
+    font-size: 1rem;
+  }
+}
