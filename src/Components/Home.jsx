@@ -2,34 +2,66 @@ import React from 'react'
 import "./Home.css"
 import Home_img from '../assets/Image 1.png'
 import Home_img2 from '../assets/Image 2.png'
+import Rectangle_img3 from'../assets/Rectangle.png'
+
 function Home() {
   return (
-    <div className="home-container">
-    <div className="home-content">
-      <h1>Interior Design</h1>
-      <p>
-        Step into a world where the art of Interior Design is meticulously
-        crafted to bring together timeless elegance and cutting-edge modern
-        Innovation, allowing you to transform your living space into the epitome of
-        luxury and sophistication.
-      </p>
+    <div className="Hero_Section">
+      <div className="Hero_Section_Container">
+        <div className="content">
+          <div className="Header">INTERIOR DESIGN</div>
+          <p className='sub-heading'>
+            Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance
+            and cutting-edge <br />modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication
+          </p>
+          <div className="btn1">
+            <button>Start Project</button>
+          </div>
+        </div>
+        <img className="image" alt="Image" src={Home_img} />
+      </div>
+      <div className="counts">
+      <div className="flexcontainer">
+        <div className="flexitem">
+          <p className="text">
+            <span className="span">400+</span>
+          </p>
+          <p className="text">
+            <span className="text-wrapper-2">Project Complete</span>
+          </p>
+        </div>
+        <div className="flexitem">
+          <p className="text">
+            <span className="span">200+</span>
+          </p>
+          <p className="text">
+            <span className="text-wrapper-2">Satisfied Clients</span>
+          </p>
+        </div>
+        <div className="flexitem">
+          <p className="text">
+            <span className="span">100+</span>
+          </p>
+          <p className="text">
+            <span className="text-wrapper-2">
+            Unique Styles</span>
+
+          </p>
+          <img className="img2" alt="Image" src={Home_img2} />
+        </div>
+        
+      </div>
+      
     </div>
-    <div className="home-image">
-      <img src={Home_img} alt="Interior Design" />
-    </div>
-    <div className="home-button">
-      <button>Start Project</button>
-    </div>
-    <div className="home-stats">
-      <span>600+</span>
-      <span>500+</span>
-      <span>700+</span>
-      <span className="project">project</span>
-    </div>
-    <div className="home-image-2">
-      <img src={Home_img2} alt="Project Image" />
-    </div>
-  </div>
+  
+     
+     
+
+    
+        
+      
+      </div>
+    
   )
 }
 

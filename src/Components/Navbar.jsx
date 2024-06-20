@@ -1,4 +1,4 @@
-// src/Navbar.js
+
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo_img from '../assets/Logo.png';
