@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Home_img from '../assets/Image 1.png'
 import Home_img2 from '../assets/Image 2.png'
-import Rectangle_img3 from'../assets/Rectangle.png'
+
 
 function Home() {
   return (
