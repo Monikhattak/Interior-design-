@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section.css'
-import Mask_group from '../assets/Mask group.png'
+import Mask_group from '../assets/Mask group (1).png'
 
 function Section() {
   return (
