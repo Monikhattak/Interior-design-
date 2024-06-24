@@ -1,0 +1,25 @@
+
+  .newsletterContanier {
+    background-color: #fff;
+    padding: 7em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  
+  .newsletterContanier h1 {
+    margin-bottom: 1em;
+    font-size: 50px;
+    text-decoration: none;
+    color: #850741d5;
+  }
+  
+  .newsletterContanier p {
+    margin-bottom: 1em;
+    font-size: 20px;
+    color: #0c0a0a;
+    line-height: 1.5;
+  }
+  
